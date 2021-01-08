@@ -73,38 +73,38 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Smart India Hackathon 2020",
+    cardImage: "assets/images/experience-page/sih-logo.png",
     description:
       "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "MIT Hack4Future",
+    cardImage: "assets/images/experience-page/Hack4Future.png",
     description:
       "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Mission: Unite",
+    cardImage: "assets/images/experience-page/mission_unit.jpg",
+    description:
+      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+  },
+  {
+    title: "Hack-Una- Matata",
+    cardImage: "assets/images/experience-page/hackuna_matata.jpg",
     description:
       "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-  {
-    title: "30 DaysofFlutter",
-    cardImage: "assets/images/experience-page/5.jpg",
+    title: "MIT India Turning the Tide - COVID19 Challenge",
+    cardImage: "assets/images/experience-page/MIT_india_covid19.png",
     description:
       "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
   },
   {
-    title: "Garuda Hacks",
-    cardImage: "assets/images/experience-page/6.jpg",
+    title: "Pycharm Hacks - Jetbrains",
+    cardImage: "assets/images/experience-page/pycharm_hack.png",
     description:
       "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
   },
@@ -133,16 +133,16 @@ document.addEventListener("DOMContentLoaded", showCards);
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
-    title: "HakinCode",
+    title: "Talent Quest for India - Tele Mentoring",
     image: "assets/images/experience-page/hakin.png",
     time: "06/2020 - 08/2020",
-    desp: "<li>It is an open source community where students and mentors can apply.</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
+    desp: "<li>During COVID-19 pandemic, I volunteer myself with Phone Call Mentoring during which I will be calling my Mentee and helping them with their studies.</li>",
   },
   {
-    title: "Google Summer of Code",
+    title: "Talent Quest for India - Workshop Tutor",
     image: "assets/images/experience-page/gsoc.png",
     time: "03/2020 - 08/2020",
-    desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
+    desp: "<li>I visit nearby schools and teach soft skills and effective learning techniques to the under previliged Government school students for free of cost. </li>",
   },
 ];
 
@@ -172,3 +172,4 @@ const showCards3 = () => {
   mentorshipcards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
+
