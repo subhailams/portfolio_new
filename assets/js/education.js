@@ -176,31 +176,23 @@ document.addEventListener("DOMContentLoaded", showCards1);
 const timeline = document.querySelector(".timeline");
 const timelinesection = [
   {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    heading: "R.M.K Engineering College",
+    image: "./assets/images/education-page/RMK_Engineering_College.jpg",
+    subheading: "Bachelors of Science, Computer Science & Engineering, (2016-2020)",
+    description: "<li> CGPA - 8.56/10 </li><li>Top 1% in the department</li>",
   },
 
   {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    heading: "Higher Secondary - Velammal Matriculation Higher Secondary School",
+    image: "./assets/images/education-page/velammal.png",
+    subheading: "Maths - Biology (2014 - 2016)",
+    description: "<li> 1159/1200 </li><li> 100% Scholarship Holder </li><li>Top 1% in the department</li>",
   },
-
   {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
-  },
-
-  {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    heading: "High School - Velammal Matriculation Higher Secondary School",
+    image: "./assets/images/education-page/velammal.png",
+    subheading: "(2012 - 2014)",
+    description: "<li> 494/500 </li><li>State 6th Rank</li><li>Top 1% in the department</li>",
   },
 ];
 

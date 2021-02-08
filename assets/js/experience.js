@@ -148,13 +148,13 @@ const mentor = [
     title: "Workshop on Coding and Placements",
     image: "assets/images/experience-page/workshop.JPG",
     time: "03/2020 - 08/2020",
-    desp: "<li>I have got placed with the very second company that visited our college. After getting placed, I have shared my interview experience and coding skills and tactics that are required. </li>",
+    desp: "<li>I have got placed at the very second company that visited our college. After getting placed, I have shared my interview experience and coding skills with my fellow students.</li>",
   },
   {
-    title: "Workshop on Machine Learning and AI",
+    title: "Alumni Connect",
     image: "assets/images/experience-page/workshop.JPG",
     time: "03/2020 - 08/2020",
-    desp: "<li>I frequently provide mentoring sessions to my college juniors and drive a workshop session on latest technologies.</li>",
+    desp: "<li>I frequently provide mentoring sessions and guide the projects of my college juniors and drive a workshop session on latest technologies.</li>",
   },
 ];
 
