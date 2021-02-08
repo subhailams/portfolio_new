@@ -134,15 +134,27 @@ const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
     title: "Talent Quest for India - Tele Mentoring",
-    image: "assets/images/experience-page/hakin.png",
+    image: "assets/images/experience-page/tqi-express.jpg",
     time: "06/2020 - 08/2020",
     desp: "<li>During COVID-19 pandemic, I volunteer myself with Phone Call Mentoring during which I will be calling my Mentee and helping them with their studies.</li>",
   },
   {
     title: "Talent Quest for India - Workshop Tutor",
-    image: "assets/images/experience-page/gsoc.png",
+    image: "assets/images/experience-page/tqi-picture.jpg",
     time: "03/2020 - 08/2020",
     desp: "<li>I visit nearby schools and teach soft skills and effective learning techniques to the under previliged Government school students for free of cost. </li>",
+  },
+  {
+    title: "Workshop on Coding and Placements",
+    image: "assets/images/experience-page/workshop.JPG",
+    time: "03/2020 - 08/2020",
+    desp: "<li>I have got placed with the very second company that visited our college. After getting placed, I have shared my interview experience and coding skills and tactics that are required. </li>",
+  },
+  {
+    title: "Workshop on Machine Learning and AI",
+    image: "assets/images/experience-page/workshop.JPG",
+    time: "03/2020 - 08/2020",
+    desp: "<li>I frequently provide mentoring sessions to my college juniors and drive a workshop session on latest technologies.</li>",
   },
 ];
 
