@@ -5,64 +5,82 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "TensorFlow Developer Professional Certification",
+    cardImage: "assets/images/education-page/tf_developer.png",
+    moocLink: "https://www.tensorflow.org/certificate",
+  },
+  {
+    title: "Deep Learning Specialization",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/specializations/deep-learning",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Neural Networks and Deep Learning",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning",
   },
   {
-    title: "Machine Learning",
+    title: "Structuring Machine Learning Projects",
     cardImage: "assets/images/education-page/coursera1.png",
     moocLink: "https://www.coursera.org/learn/machine-learning",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/EdX.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
+    title: "Convolutional Neural Networks",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
   },
   {
-    title: "NodeJS, Express and MongoDB",
+    title: "TensorFlow Specialization",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
   },
+
+  {
+    title: "Convolutional Neural Networks in TensorFlow",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
+  },
+  {
+    title: "Natural Language Processing in TensorFlow",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
+  },
+  {
+    title: "Sequences, Time Series and Prediction in Tensorflow",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
+  },
+
   {
     title: "Data Structures & Algorithms",
     cardImage: "assets/images/education-page/udacity_logo.png",
     moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+  },
+
+  {
+    title: "Full Stack Web Development",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+  },
+  {
+    title: "Android App Development",
+    cardImage: "assets/images/education-page/Internshala.jpg",
+    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+  },
+  {
+    title: "Penetration Testing and Ethical Hacking",
+    cardImage: "assets/images/education-page/cybrary.jpg",
+    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+  },
+  {
+    title: "Blockchain & Cryptocurrency",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
   },
 ];
 
