@@ -33,6 +33,7 @@ let header = $(`
 <div class="nav-wrapper">
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
+    <a href="#"> Subha Ilamathy </a>
     <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="index.html">Home</a></li>
         <li><a class="white-text" href="experience.html">Experience</a></li>
@@ -40,8 +41,7 @@ let header = $(`
         <li><a class="white-text" href="research.html">Research</a></li>
         <li><a class="white-text" href="education.html">Education</a></li>
         <li><a class="white-text" href="skill.html">Skills</a></li>
-        <li><a class="white-text" href="index.html">Blog</a></li>
-        <li><a class="white-text" href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
+        <li><a class="white-text" href="https://drive.google.com/file/d/1hEv2ZoI7p0d6DqIfk7XXFLWzXL1mJYgW/view?usp=sharing" target="_blank">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
           <label for="switch-1" class="theme-switch">
@@ -99,27 +99,17 @@ let footer = $(`
     <p style="color:#cccccc">"Develop a passion for learning. If you do, you will never cease to grow."</p>
   </div>
   <div class="footer-icons">
-    <a href="#" class="twitter sub-footer-icon">
+    <a href="https://www.twitter.com/subhailams/" class="twitter sub-footer-icon">
       <i class="fab fa-twitter"></i>
     </a>
-    <a href="#" class="instagram sub-footer-icon">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="#" class="linkedin sub-footer-icon">
+    
+    <a href="https://www.linkedin.com/in/subhailams/" class="linkedin sub-footer-icon">
       <i class="fab fa-linkedin"></i>
     </a>
-    <a href="#" class="git sub-footer-icon">
+    <a href="https://www.github.com/subhailams/" class="git sub-footer-icon">
       <i class="fab fa-github"></i>
     </a>
-    <a href="#" class="medium sub-footer-icon">
-      <i class="fab fa-medium"></i>
-    </a>
-    <a href="#" class="dribbble sub-footer-icon">
-      <i class="fab fa-dribbble"></i>
-    </a>
-    <a href="#" class="kaggle sub-footer-icon">
-      <i class="fab fa-kaggle" id="kaggle-icon"></i>
-    </a>
+    
   </div>
   <div class="footer-email">
     <a href="#" class="email-icon" style="color:#cccccc;">

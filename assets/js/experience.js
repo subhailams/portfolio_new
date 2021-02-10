@@ -10,6 +10,15 @@ const exp = [
     time: "(Sep 2020 – Present)",
     desp: "<li>Responsible for implementing efficient, quantized Computer Vision and Speech Models for Edge Devices, scaling and Fine-tuning ML Models, Integrating State-of-the-art methods for Automatic LipSync Detection</li>",
   },
+  
+  {
+    title: "Machine Learning Intern",
+    cardImage: "assets/images/experience-page/MulticoreWare_blue_logo-removebg.png",
+    place: "Multicoreware Inc",
+    time: "(Dec 2019 – Aug 2020)",
+    desp:"<li>Worked on the project 'Driver Monitoring System' An in-car security system powered by latest Deep Learning methods was prototyped.</li>",
+  },
+
   {
     title: "Project Team Lead",
     cardImage: "assets/images/experience-page/mit.png",
@@ -23,14 +32,6 @@ const exp = [
     place: "Smart India Hackathon, Government of India",
     time: "(Jan 2020 – Aug 2020)",
     desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  },
-
-  {
-    title: "Machine Learning Intern",
-    cardImage: "assets/images/experience-page/MulticoreWare_blue_logo-removebg.png",
-    place: "Multicoreware Inc",
-    time: "(Dec 2019 – Aug 2020)",
-    desp:"<li>Worked on the project 'Driver Monitoring System' An in-car security system powered by latest Deep Learning methods was prototyped.</li>",
   },
 
 
@@ -145,10 +146,10 @@ const mentor = [
     desp: "<li>I visit nearby schools and teach soft skills and effective learning techniques to the under previliged Government school students for free of cost. </li>",
   },
   {
-    title: "Workshop on Coding and Placements",
+    title: "Workshop on Coding",
     image: "assets/images/experience-page/workshop.JPG",
     time: "03/2020 - 08/2020",
-    desp: "<li>I have got placed at the very second company that visited our college. After getting placed, I have shared my interview experience and coding skills with my fellow students.</li>",
+    desp: "<li>I have got placed at the very second company that visited our college. After that, I have shared my interview experience and coding skills with my fellow students.</li>",
   },
   {
     title: "Alumni Connect",
