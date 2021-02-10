@@ -31,7 +31,7 @@ function topFunction() {
 let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
+    <a href="#" class="brand-logo">Subha Ilamathy</a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
@@ -45,13 +45,13 @@ let header = $(`
         <li><a class="white-text" href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
-          <label for="switch-1" class="theme-switch">
-            <input class="toggle-checkbox" type="checkbox" id="switch-1" name="theme" />
+          <label for="switch-2" class="theme-switch">
+            <input class="toggle-checkbox" type="checkbox" id="switch-2" name="theme" />
             <div class='toggle-slot'>
               <div class='sun-icon-wrapper'>
                 <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
               </div>
-              <div class='toggle-button-1 toggle-button'></div>
+              <div class='toggle-button-2 toggle-button'></div>
               <div class='moon-icon-wrapper'>
                 <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
               </div>
@@ -76,13 +76,13 @@ let header = $(`
 
 <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
-        <label for="switch-2" class="theme-switch">
-        <input class="toggle-checkbox" type="checkbox" id="switch-2" name="theme" />
+        <label for="switch-1" class="theme-switch">
+        <input class="toggle-checkbox" type="checkbox" id="switch-1" name="theme" />
           <div class='toggle-slot'>
           <div class='sun-icon-wrapper'>
           <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
           </div>
-          <div class='toggle-button-2 toggle-button'></div>
+          <div class='toggle-button-1 toggle-button'></div>
           <div class='moon-icon-wrapper'>
           <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
           </div>
@@ -171,7 +171,7 @@ if (checkbox) {
   let a = localStorage.getItem("theme");
   document.documentElement.setAttribute("data-theme", a); // setting the initial theme to light
 
-  if (localStorage.getItem("theme") === "dark") {
+  if (localStorage.getItem("theme") === "light") {
     checkbox.checked = true;
   }
 
@@ -186,20 +186,20 @@ if (checkbox) {
       // if theme is dark then on the toggler click we have to make it light
       trans();
       // changing the color
-      toggleLightColor();
+      toggleDarkColor();
 
-      document.documentElement.setAttribute("data-theme", "dark");
-      localStorage.setItem("theme", "dark");
+      document.documentElement.setAttribute("data-theme", "light");
+      localStorage.setItem("theme", "light");
     } else { 
       /*
       if there is click on toggler and if theme is light (initially it will be light) then the theme should convert to dark
       */
       trans();
       // changing the color
-      toggleDarkColor();
+      toggleLightColor();
 
-      document.documentElement.setAttribute("data-theme", "light");
-      localStorage.setItem("theme", "light");
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
     }
   });
 
