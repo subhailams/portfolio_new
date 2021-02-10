@@ -186,20 +186,20 @@ if (checkbox) {
       // if theme is dark then on the toggler click we have to make it light
       trans();
       // changing the color
-      toggleDarkColor();
+      toggleLightColor();
 
-      document.documentElement.setAttribute("data-theme", "light");
-      localStorage.setItem("theme", "light");
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
     } else { 
       /*
       if there is click on toggler and if theme is light (initially it will be light) then the theme should convert to dark
       */
       trans();
       // changing the color
-      toggleLightColor();
+      toggleDarkColor();
 
-      document.documentElement.setAttribute("data-theme", "dark");
-      localStorage.setItem("theme", "dark");
+      document.documentElement.setAttribute("data-theme", "light");
+      localStorage.setItem("theme", "light");
     }
   });
 
