@@ -4,11 +4,11 @@ AOS.init();
 
 const moocs = document.querySelector(".moocs");
 const moocscards = [
-  {
-    title: "TensorFlow Developer Professional Certification",
-    cardImage: "assets/images/education-page/tf_developer.png",
-    moocLink: "https://www.tensorflow.org/certificate",
-  },
+  // {
+  //   title: "TensorFlow Developer Professional Certification",
+  //   cardImage: "assets/images/education-page/tf_developer.png",
+  //   moocLink: "https://www.tensorflow.org/certificate",
+  // },
   {
     title: "Deep Learning Specialization",
     cardImage: "assets/images/education-page/coursera1.png",
@@ -35,7 +35,7 @@ const moocscards = [
     moocLink: "https://www.coursera.org/learn/machine-learning",
   },
   {
-    title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+    title: "Intro to TensorFlow for AI, ML, and Deep Learning",
     cardImage: "assets/images/education-page/coursera1.png",
     moocLink: "https://www.coursera.org/learn/machine-learning",
   },
@@ -45,16 +45,7 @@ const moocscards = [
     cardImage: "assets/images/education-page/coursera1.png",
     moocLink: "https://www.coursera.org/learn/machine-learning",
   },
-  {
-    title: "Natural Language Processing in TensorFlow",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
-  },
-  {
-    title: "Sequences, Time Series and Prediction in Tensorflow",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
-  },
+
 
   {
     title: "Data Structures & Algorithms",
@@ -73,14 +64,19 @@ const moocscards = [
     moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
   },
   {
-    title: "Penetration Testing and Ethical Hacking",
-    cardImage: "assets/images/education-page/cybrary.jpg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
     title: "Blockchain & Cryptocurrency",
     cardImage: "assets/images/education-page/udemy.png",
     moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+  },
+  {
+    title: "Natural Language Processing in TensorFlow",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
+  },
+  {
+    title: "Sequences, Time Series in Tensorflow",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/machine-learning",
   },
 ];
 
