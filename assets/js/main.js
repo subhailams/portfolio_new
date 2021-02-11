@@ -41,7 +41,7 @@ let header = $(`
         <li><a class="white-text" href="research.html">Research</a></li>
         <li><a class="white-text" href="education.html">Education</a></li>
         <li><a class="white-text" href="skill.html">Skills</a></li>
-        <li><a class="white-text" href="https://drive.google.com/file/d/1hEv2ZoI7p0d6DqIfk7XXFLWzXL1mJYgW/view?usp=sharing" target="_blank">My Resume</a></li>
+        <li><a class="white-text" href="https://drive.google.com/file/d/1ecNZdXbqKI1ZGzRP7aCn5sdvIdRGhoen/view?usp=sharing" target="_blank">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
           <label for="switch-1" class="theme-switch">
