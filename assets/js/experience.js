@@ -77,37 +77,37 @@ const volunteershipcards = [
     title: "Smart India Hackathon 2020",
     cardImage: "assets/images/experience-page/sih-logo.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "",
   },
   {
     title: "MIT Hack4Future",
     cardImage: "assets/images/experience-page/Hack4Future.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "",
   },
   {
     title: "Mission: Unite",
     cardImage: "assets/images/experience-page/mission_unit.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "",
   },
   {
     title: "Hack-Una- Matata",
     cardImage: "assets/images/experience-page/hackuna_matata.jpg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "",
   },
   {
     title: "MIT India Turning the Tide - COVID19 Challenge",
     cardImage: "assets/images/experience-page/MIT_india_covid19.png",
     description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
+      "",
   },
   {
     title: "Pycharm Hacks - Jetbrains",
     cardImage: "assets/images/experience-page/pycharm_hack.png",
     description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
+      "
   },
 ];
 
