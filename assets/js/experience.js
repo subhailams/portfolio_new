@@ -4,7 +4,7 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
+    title: "Software Engineer - Media, Video and AI Analytics",
     cardImage: "assets/images/experience-page/MulticoreWare_blue_logo-removebg.png",
     place: "Multicoreware Inc",
     time: "(Sep 2020 – Present)",
