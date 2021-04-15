@@ -107,7 +107,7 @@ const volunteershipcards = [
     title: "Pycharm Hacks - Jetbrains",
     cardImage: "assets/images/experience-page/pycharm_hack.png",
     description:
-      "
+      "",
   },
 ];
 
